@@ -542,6 +542,7 @@ header .wrapper {
   background-position: center;
   background-size: cover;
   min-height: 90vh;
+  margin-bottom: 0;
 }
 .play .wrapper {
   display: -webkit-box;
@@ -561,4 +562,47 @@ header .wrapper {
   background-color: #ffffff;
   padding: 60px;
   text-align: center;
+}
+
+footer {
+  background-color: #084b6d;
+  color: #ffffff;
+  padding: 75px;
+}
+footer .footerflexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footerLogo h4 {
+  color: #ffffff;
+}
+
+.footerNav {
+  width: 45%;
+}
+.footerNav nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+}
+.social i {
+  margin: 0 10px;
 }
