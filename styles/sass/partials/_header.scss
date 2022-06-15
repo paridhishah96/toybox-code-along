@@ -20,3 +20,28 @@ header .wrapper {
     margin: 0 auto;
 }
 
+// contact page header style 
+.contactHeader {
+    background-color: $quaternary;
+    padding-top: 120px;
+}
+
+// contact page header style
+.contactHeader .wrapper {
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.contactHeader::after {
+    content: "";
+    width: 100%;
+    height: 150px;
+    background-image: url(../assets/wave-3.svg);
+    background-size: 100% 100%;
+    background-color: $quaternary;
+    display: block;
+
+
+}
+
