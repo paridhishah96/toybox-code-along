@@ -708,3 +708,102 @@ footer .footerflexContainer {
             align-items: center;
   }
 }
+.contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 90px auto;
+  max-width: 1000px;
+}
+
+input,
+textarea {
+  border: none;
+  font-family: "Jakarta Sans";
+  color: #333;
+  padding: 0 0 10px 5px;
+  margin-bottom: 40px;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  font-size: 0.8rem;
+  color: #084b6d;
+  opacity: 1;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  font-size: 0.8rem;
+  color: #084b6d;
+  opacity: 1;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  font-size: 0.8rem;
+  color: #084b6d;
+  opacity: 1;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  font-size: 0.8rem;
+  color: #084b6d;
+  opacity: 1;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+input::placeholder,
+textarea::placeholder {
+  font-size: 0.8rem;
+  color: #084b6d;
+  opacity: 1;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+input:focus,
+textarea:focus {
+  border-bottom: 1px solid #084b6d;
+}
+
+input {
+  border-bottom: 2px solid #eee;
+  border-top: none;
+}
+
+textarea {
+  border: 2px solid #eee;
+}
+
+select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  font-family: "Jakarta Sans";
+  color: #084b6d;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #eee;
+  background-image: url(../assets/caret-down-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 95%;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+fieldset label {
+  margin-left: 5px;
+  font-size: 0.8rem;
+}
+fieldset input {
+  accent-color: #084b6d;
+}
